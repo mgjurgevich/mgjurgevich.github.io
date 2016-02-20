@@ -1,0 +1,147 @@
+/*.header {
+	background-color: #7DCD85;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+}
+
+
+nav{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #BAC7BE;
+    position: fixed;
+}
+
+h1 {
+	font-family: 'Lato';
+	font-size: 36px;
+	text-align: center;
+	color: #778472;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Lato';
+	font-size: 20px;
+	text-align: center;
+	color: #778472;
+}
+
+body{
+	background-color: #C2E1C2;
+}
+
+
+
+
+.column-sm-4{
+	font-family: 'Lato';
+	font-size: 20px;
+	text-align: center;
+}*/
+
+
+/**{
+	background: rgba(0, 0, 0, 0.1);
+}
+*/
+
+*{
+	text-decoration: none;
+	color: #778472;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	/*background: #C2E1C2;*/
+	font-family: 'Lora', sans-serif;
+}
+/*Header Section*/
+
+.navbar {
+	position: relative;
+	padding: 10px 0 5px 0;
+	background: white;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+/*nav{*/
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px 0 10px 0;
+/*}*/
+
+@media (max-width: 230px) {
+	text-decoration: none;
+	color: black;
+}
+
+header ul{
+	margin: 0;
+	/*padding: 0;*/
+}
+
+.navbar li{
+	display: inline-block;
+	color: #778472;
+	padding: 0 15px 0 15px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #778472;
+	padding-left: 10px;
+	/*padding-right: 100px;*/
+}
+
+/*Landing*/
+
+.landing-inner {
+	background: url('/Users/marisagjurgevich/Documents/Startup Institute/marisag2/images/nola.jpg');
+	background-size: cover;
+	text-align: center;
+	min-height: 600px;
+	margin: 0;
+}
+
+.landing {
+	padding: 200px 0 200px 0;
+	margin: 0;
+	color: #C2E1C2;
+	font-size: 3em;
+}
+
+/*Learn more*/
+
+#learn a { 
+	display: inline-block;
+	/*padding: 30px 60px;*/
+	/*border: 1px solid #ccc;*/
+	/*margin: 10px;*/
+	/*border-radius: 10px;*/
+	background: white;
+	/*box-shadow: 2px 4px 10px rgba(0,0,0,0.2);*/
+	text-decoration: none;
+	color: #778472;
+	text-align: center;
+}
+
+#learn h2 { 
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lato';
+}
+
+div.col-lg-3 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
