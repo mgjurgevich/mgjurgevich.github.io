@@ -70,19 +70,6 @@ body {
 	margin-bottom: 0;
 }
 
-/*nav{*/
-	display: inline-block;
-	position: absolute;
-	right: 0;
-	top: 0;
-	margin: 10px 0 10px 0;
-/*}*/
-
-@media (max-width: 230px) {
-	text-decoration: none;
-	color: black;
-}
-
 header ul{
 	margin: 0;
 	/*padding: 0;*/
@@ -98,7 +85,6 @@ header ul{
 	text-decoration: none;
 	color: #778472;
 	padding-left: 10px;
-	/*padding-right: 100px;*/
 }
 
 /*Landing*/
@@ -107,7 +93,7 @@ header ul{
 	background: url('/images/nola.jpg');
 	background-size: cover;
 	text-align: center;
-	min-height: 600px;
+	min-height: 550px;
 	margin: 0;
 }
 
@@ -133,6 +119,10 @@ header ul{
 	text-align: center;
 }
 
+.material-icons.md-48 { 
+	font-size: 68px; 
+}
+
 #learn h2 { 
   margin-top: 0;
   text-transform: uppercase;
@@ -142,6 +132,21 @@ header ul{
 
 div.col-lg-3 {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+/*Content*/
+div.featurette img {
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	display: block;
+	vertical-align: middle;
+	border: 0;
+}
+
+div.featurette h2 {
+	text-align: center;
+	text-transform: uppercase;
 }
