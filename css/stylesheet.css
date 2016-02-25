@@ -130,6 +130,17 @@ header ul{
 	color: #B1DDB1;
 }
 
+.landing h3 {
+	font-family: 'Lora';
+	font-weight: 700;
+	color: #B1DDB1;
+	text-decoration: none;
+}
+
+div.landing h3:hover {
+	color: #BAC7BE;
+}
+
 /*Learn more*/
 
 #learn a { 
