@@ -62,12 +62,21 @@ body {
 }
 /*Header Section*/
 
-.navbar {
+.navbar, .navbar-inverse {
 	position: relative;
 	padding: 10px 0 5px 0;
 	background: white;
 	width: 100%;
 	margin-bottom: 0;
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #778472;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #BAC7BE;
 }
 
 header ul{
