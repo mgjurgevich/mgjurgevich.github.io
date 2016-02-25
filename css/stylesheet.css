@@ -157,6 +157,7 @@ div.featurette img {
 	display: block;
 	vertical-align: middle;
 	border: 0;
+	background-position: center;
 }
 
 div.featurette h2 {
