@@ -73,6 +73,7 @@ body {
 
 .navbar-inverse .navbar-toggle {
 	border-color: #778472;
+	background-color: #B1DDB1;
 }
 
 .navbar-inverse .navbar-toggle:hover {
@@ -81,7 +82,6 @@ body {
 
 header ul{
 	margin: 0;
-	/*padding: 0;*/
 }
 
 .navbar li{
@@ -94,6 +94,10 @@ header ul{
 	text-decoration: none;
 	color: #778472;
 	padding-left: 10px;
+}
+
+.navbar a:hover {
+	color: #BAC7BE;
 }
 
 /*Landing*/
@@ -141,6 +145,10 @@ header ul{
 	text-align: center;
 }
 
+#learn a:hover {
+	color: #BAC7BE;
+}
+
 .material-icons.md-48 { 
 	font-size: 68px; 
 }
@@ -159,6 +167,7 @@ div.col-lg-3 {
 }
 
 /*Content*/
+
 div.featurette img {
 	max-width: 100%;
 	height: auto;
@@ -172,4 +181,17 @@ div.featurette img {
 div.featurette h2 {
 	text-align: center;
 	text-transform: uppercase;
+}
+
+/*Footer*/
+
+footer .pull-right a {
+	text-decoration: none;
+	color: #778472;
+	font-family: 'Lato';
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: #B1DDB1;
 }
