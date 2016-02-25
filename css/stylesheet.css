@@ -192,6 +192,12 @@ div.featurette img {
 div.featurette h2 {
 	text-align: center;
 	text-transform: uppercase;
+	font-family: 'Lora';
+	font-weight: 700;
+}
+
+div.featurette a {
+	color: #B1DDB1;
 }
 
 /*Footer*/
