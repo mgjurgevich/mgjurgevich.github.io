@@ -121,6 +121,7 @@ header ul{
 	font-weight: 700;
 	font-size: 58;
 	color: #B1DDB1;
+	letter-spacing: 2.5px;
 }
 
 .landing h2 {
@@ -128,6 +129,7 @@ header ul{
 	font-weight: 700;
 	font-style: italic;
 	color: #B1DDB1;
+	letter-spacing: 1.2px;
 }
 
 .landing h3 {
