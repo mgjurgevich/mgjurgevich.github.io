@@ -177,6 +177,12 @@ div.col-lg-3 {
 	padding-bottom: 50px;
 }
 
+#learn.panel {
+	border: none;
+	border-radius: 0;
+	margin-top: 20px;
+}
+
 /*Content*/
 
 div.featurette img {
