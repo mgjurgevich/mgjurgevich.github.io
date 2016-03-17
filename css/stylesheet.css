@@ -80,6 +80,7 @@ header ul{
 	color: #B1DDB1;
 	letter-spacing: 1.2px;
 	text-decoration: none;
+	color: #B1DDB1;
 }
 
 .landing h3 {
@@ -89,7 +90,7 @@ header ul{
 	text-decoration: none;
 }
 
-div.landing h3:hover {
+div.landing h2, h3:hover {
 	color: #BAC7BE;
 }
 
