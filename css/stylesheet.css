@@ -71,7 +71,6 @@ header ul{
 	font-size: 60;
 	color: #B1DDB1;
 	letter-spacing: 2.5px;
-	font-style: italic;
 }
 
 .landing h2 {
@@ -80,6 +79,7 @@ header ul{
 	font-style: italic;
 	color: #B1DDB1;
 	letter-spacing: 1.2px;
+	text-decoration: none;
 }
 
 .landing h3 {
