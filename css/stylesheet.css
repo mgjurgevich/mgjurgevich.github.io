@@ -53,9 +53,11 @@ header ul{
 
 .landing-inner {
 	background: url('/images/nola.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
 	text-align: center;
-	min-height: 600px;
+	/*min-height: 600px;*/
 	margin: 0;
 }
 
