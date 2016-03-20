@@ -73,19 +73,19 @@ header ul{
 	letter-spacing: 2.5px;
 }
 
-.landing h2 a {
+.landing h2 {
 	font-family: 'Lora'
 	font-weight: 700;
 	font-style: italic;
 	color: #B1DDB1;
 	letter-spacing: 1.3px;
 	text-decoration: none;
-	font-size: 37px;
 }
 
-.landing h3 {
+.landing h3 a {
 	font-family: 'Lora';
 	font-weight: 700;
+	font-style: italic;
 	color: #B1DDB1;
 	text-decoration: none;
 }
