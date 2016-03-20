@@ -68,9 +68,9 @@ header ul{
 .landing h1 {
 	font-family: 'Lora';
 	font-weight: 700;
-	font-size: 60;
+	font-size: 64;
 	color: #B1DDB1;
-	letter-spacing: 2.5px;
+	letter-spacing: 2.6px;
 }
 
 .landing h2 {
@@ -78,7 +78,7 @@ header ul{
 	font-weight: 700;
 	font-style: italic;
 	color: #B1DDB1;
-	letter-spacing: 1.3px;
+	letter-spacing: 1.2px;
 	text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ header ul{
 	text-decoration: none;
 }
 
-div.landing h2, h3:hover {
+div.landing h3 a:hover {
 	color: #BAC7BE;
 	text-decoration: none;
 }
