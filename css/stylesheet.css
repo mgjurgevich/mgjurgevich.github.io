@@ -57,6 +57,8 @@ header ul{
 	-moz-background-size: cover;
 	background-size: cover;
 	text-align: center;
+	height: 100%;
+	width: 100%;
 	/*min-height: 600px;*/
 	margin: 0;
 }
