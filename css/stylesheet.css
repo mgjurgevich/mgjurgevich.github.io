@@ -69,14 +69,15 @@ header ul{
 	padding: 200px 0 200px 0;
 	margin: 0;
 	color: #C2E1C2;
+	position: relative;
 }
 
 .landing h1 {
 	font-family: 'Lora';
 	font-weight: 700;
-	font-size: 64;
+	font-size: 60;
 	color: #B1DDB1;
-	letter-spacing: 2.6px;
+	letter-spacing: 2.5px;
 }
 
 .landing h2 {
@@ -153,6 +154,7 @@ div.featurette img {
 	vertical-align: middle;
 	border: 0;
 	background-position: center;
+	border-radius: 50%;
 }
 
 div.featurette h2 {
