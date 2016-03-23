@@ -53,7 +53,7 @@ header ul{
 
 .landing-inner {
 	display: table;
-	background: url('../images/atacama.jpg') no-repeat center scroll;
+	background: url('/images/atacama.jpg') no-repeat center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
