@@ -52,39 +52,41 @@ header ul{
 /*Landing*/
 
 .landing-inner {
-	background: url('../images/nola.jpg');
+	display: table;
+	background: url('../images/atacama.jpg') no-repeat center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	text-align: center;
 	height: 100%;
 	width: 100%;
 	position: relative;
-	/*min-height: 600px;*/
-	margin: 0;
 }
 
 .landing {
-	padding: 225px 0 225px 0;
-	margin: 0;
-	color: #C2E1C2;
-	position: relative;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	/*padding: 225px 0 225px 0;*/
+	/*margin: 0;*/
+	/*color: #C2E1C2;*/
+	/*position: relative;*/
 }
 
 .landing h1 {
-	font-family: 'Lora';
+	font-family: 'Amaranth';
 	font-weight: 700;
 	font-size: 60;
-	color: #B1DDB1;
+	color: #554145;
 	letter-spacing: 2.5px;
+	/*text-transform: uppercase;?\*/
 }
 
 .landing h2 {
 	font-family: 'Lora'
 	font-weight: 700;
 	font-style: italic;
-	color: #B1DDB1;
+	color: #635254;
 	letter-spacing: 1.2px;
 	text-decoration: none;
 }
@@ -93,12 +95,13 @@ header ul{
 	font-family: 'Lora';
 	font-weight: 700;
 	font-style: italic;
-	color: #B1DDB1;
+	color: #554145;
 	text-decoration: none;
+	/*#332125*/
 }
 
 div.landing h3 a:hover {
-	color: #BAC7BE;
+	color: #635254;
 	text-decoration: none;
 }
 
