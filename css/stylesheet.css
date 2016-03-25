@@ -32,9 +32,9 @@ body {
 .landing h1 {
 	font-family: 'Lato';
 	font-weight: 900;
-	font-size: 58;
+	font-size: 56;
 	color: #554145;
-	letter-spacing: 2.2px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
