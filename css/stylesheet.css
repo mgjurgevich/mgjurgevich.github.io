@@ -8,46 +8,6 @@ body {
 	margin: 0;
 	font-family: 'Lora', sans-serif;
 }
-/*Header Section*/
-
-.navbar, .navbar-inverse {
-	position: relative;
-	padding: 10px 0 0px 0;
-	background: white;
-	width: 100%;
-	margin-bottom: 0;
-	border: none;
-	min-height: 40px;
-}
-
-.navbar-inverse .navbar-toggle {
-	border-color: #778472;
-	background-color: #B1DDB1;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-	background-color: #BAC7BE;
-}
-
-header ul{
-	margin: 0;
-}
-
-.navbar li{
-	display: inline-block;
-	color: #778472;
-	padding: 0 15px 0 15px;
-}
-
-.navbar a {
-	text-decoration: none;
-	color: #778472;
-	padding-left: 10px;
-}
-
-.navbar a:hover {
-	color: #BAC7BE;
-}
 
 /*Landing*/
 
@@ -67,19 +27,15 @@ header ul{
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
-	/*padding: 225px 0 225px 0;*/
-	/*margin: 0;*/
-	/*color: #C2E1C2;*/
-	/*position: relative;*/
 }
 
 .landing h1 {
-	font-family: 'Amaranth';
-	font-weight: 700;
+	font-family: 'Lato';
+	font-weight: 900;
 	font-size: 60;
 	color: #554145;
 	letter-spacing: 2.5px;
-	/*text-transform: uppercase;?\*/
+	text-transform: uppercase;
 }
 
 .landing h2 {
@@ -151,7 +107,8 @@ div.col-lg-3 {
 
 div.featurette img {
 	max-width: 100%;
-	height: auto;
+	height: 350;
+	width: 350;
 	box-sizing: border-box;
 	display: block;
 	vertical-align: middle;
@@ -163,23 +120,33 @@ div.featurette img {
 div.featurette h2 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Lora';
+	font-family: 'Lato';
 	font-weight: 700;
+	color: #332125;
 }
 
 div.featurette a {
-	color: #B1DDB1;
+	color: #332125;
 }
+
+div.featurette p {
+	color: #554145;
+	vertical-align: middle;
+	font-size: 16px;
+	padding-top: 10px;
+	text-align: justify;
+}
+
 
 /*Footer*/
 
 footer .pull-right a {
 	text-decoration: none;
-	color: #778472;
+	color: #554145;
 	font-family: 'Lato';
 	text-transform: uppercase;
 }
 
 footer a:hover {
-	color: #B1DDB1;
+	color: #635254;
 }
