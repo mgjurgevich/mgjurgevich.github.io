@@ -33,7 +33,7 @@ body {
 	font-family: 'Lato';
 	font-weight: 900;
 	font-size: 56;
-	color: #554145;
+	color: #332125;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -42,7 +42,7 @@ body {
 	font-family: 'Lora'
 	font-weight: 700;
 	font-style: italic;
-	color: #635254;
+	color: #635254; 
 	letter-spacing: 1.2px;
 	text-decoration: none;
 }
@@ -51,7 +51,7 @@ body {
 	font-family: 'Lora';
 	font-weight: 700;
 	font-style: italic;
-	color: #554145;
+	color: #332125;
 	text-decoration: none;
 	/*#332125*/
 }
@@ -122,7 +122,7 @@ div.featurette h2 {
 	text-transform: uppercase;
 	font-family: 'Lato';
 	font-weight: 700;
-	color: #332125;
+	color: #554145;
 }
 
 div.featurette a {
