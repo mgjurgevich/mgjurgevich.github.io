@@ -47,6 +47,10 @@ body {
 	text-decoration: none;
 }
 
+.landing h2 a {
+	color: #635254;
+}
+
 .landing h3 a {
 	font-family: 'Lora';
 	font-weight: 700;
@@ -54,6 +58,11 @@ body {
 	color: #332125;
 	text-decoration: none;
 	/*#332125*/
+}
+
+div.landing h2 a:hover {
+	color: #332125;
+	text-decoration: none;
 }
 
 div.landing h3 a:hover {
