@@ -19,14 +19,13 @@
 
 	<div>
 		<div class="landing-inner">
-			<div class="landing">
+			<div id="landing" class="landing">
 				<h1>Marisa Gjurgevich</h1>
 				<h2>Aspiring UX designer, nonprofit fundraiser, <a href=http://marisagjurgevich.com/marisarunsboston/>1-time marathoner</a><h2>
-				<h3><a href=#contentUX>learn more</a></h3>
+				<h3><a href="#contentUX" data-scroll>learn more</a></h3>
 			</div>
 		</div>
 	</div>
-
 
 <hr class="featurette-divider">
 
@@ -58,9 +57,18 @@
 
 <footer>
 	<p class="pull-right">
-		<a href="#">Back to the top</a>
+		<a href="#landing" data-scroll>Back to the top</a>
 	</p>
 </footer>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.0/js/smooth-scroll.min.js"></script>
+<script>
+      smoothScroll.init({
+          speed: 1000, // Integer. How fast to complete the scroll, in milliseconds
+          easing: 'easeInSine', // Easing pattern to use
+          offset: 50, // Integer. How far to offset the scrolling location, in px (height of your navbar, perhaps)
+      });
+  </script>
 
 </body>
 
