@@ -61,55 +61,13 @@ body {
 }
 
 div.landing h2 a:hover {
-	color: #332125;
+	color: #3C2F34;
 	text-decoration: none;
 }
 
 div.landing h3 a:hover {
-	color: #635254;
+	color: #6F5563;
 	text-decoration: none;
-}
-
-/*Learn more*/
-
-#learn a { 
-	display: inline-block;
-	/*padding: 30px 60px;*/
-	/*border: 1px solid #ccc;*/
-	/*margin: 10px;*/
-	/*border-radius: 10px;*/
-	background: white;
-	/*box-shadow: 2px 4px 10px rgba(0,0,0,0.2);*/
-	text-decoration: none;
-	color: #778472;
-	text-align: center;
-}
-
-#learn a:hover {
-	color: #BAC7BE;
-}
-
-.material-icons.md-48 { 
-	font-size: 68px; 
-}
-
-#learn h2 { 
-  margin-top: 0;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Lato';
-}
-
-div.col-lg-3 {
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 50px;
-}
-
-#learn.panel {
-	border: none;
-	border-radius: 0;
-	margin-top: 20px;
 }
 
 /*Content*/
@@ -131,17 +89,21 @@ div.featurette h2 {
 	text-transform: uppercase;
 	font-family: 'Lato';
 	font-weight: 700;
-	color: #332125; 
+	color: #3C2F34; 
 }
 
 div.featurette a {
-	color: #332125;
+	color: #3C2F34;
 	text-decoration: none;
 	/*#332125;*/
 }
 
+div.featurette a:hover{
+	color: #918DA4;
+}
+
 div.featurette p {
-	color: #554145;
+	color: #6F5563;
 	vertical-align: middle;
 	font-size: 17px;
 	padding-top: 10px;
@@ -153,11 +115,11 @@ div.featurette p {
 
 footer .pull-right a {
 	text-decoration: none;
-	color: #554145;
+	color: #3C2F34;
 	font-family: 'Lato';
 	text-transform: uppercase;
 }
 
 footer a:hover {
-	color: #635254;
+	color: #918DA4;
 }
