@@ -33,7 +33,7 @@ body {
 	font-family: 'Lato';
 	font-weight: 900;
 	font-size: 56;
-	color: #332125;
+	color: #3C2F34;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -42,20 +42,20 @@ body {
 	font-family: 'Lora'
 	font-weight: 700;
 	font-style: italic;
-	color: #635254; 
+	color: #6F5563; 
 	letter-spacing: 1.2px;
 	text-decoration: none;
 }
 
 .landing h2 a {
-	color: #635254;
+	color: #6F5563;
 }
 
 .landing h3 a {
 	font-family: 'Lora';
 	font-weight: 700;
 	font-style: italic;
-	color: #332125;
+	color: #3C2F34;
 	text-decoration: none;
 	/*#332125*/
 }
@@ -116,14 +116,14 @@ div.col-lg-3 {
 
 div.featurette img {
 	max-width: 100%;
-	height: 350;
-	width: 350;
+	height: 360px;
+	width: 360px;
 	box-sizing: border-box;
 	display: block;
-	vertical-align: middle;
 	border: 0;
 	background-position: center;
 	border-radius: 50%;
+	vertical-align: middle;
 }
 
 div.featurette h2 {
@@ -131,17 +131,19 @@ div.featurette h2 {
 	text-transform: uppercase;
 	font-family: 'Lato';
 	font-weight: 700;
-	color: #554145;
+	color: #332125; 
 }
 
 div.featurette a {
 	color: #332125;
+	text-decoration: none;
+	/*#332125;*/
 }
 
 div.featurette p {
 	color: #554145;
 	vertical-align: middle;
-	font-size: 16px;
+	font-size: 17px;
 	padding-top: 10px;
 	text-align: justify;
 }
