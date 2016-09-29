@@ -4239,7 +4239,7 @@ ul.project-detail-block, .project-detail-block ul {
 .image-slider .owl-controls .owl-pagination,
 .fullwidth-slider .owl-controls .owl-pagination,
 .item1-carousel .owl-controls .owl-pagination {
-    position: absolute;
+    position: relative;
     bottom: 0;
     z-index: 2;
     bottom: 15px;
